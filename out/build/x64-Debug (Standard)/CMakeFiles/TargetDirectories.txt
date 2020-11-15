@@ -1,0 +1,3 @@
+C:/Users/henri/Documents/Cpp_Workspace/Mandelbrot/Mandelbrot_Console/out/build/x64-Debug (Standard)/CMakeFiles/Mandelbrot_Console.dir
+C:/Users/henri/Documents/Cpp_Workspace/Mandelbrot/Mandelbrot_Console/out/build/x64-Debug (Standard)/CMakeFiles/edit_cache.dir
+C:/Users/henri/Documents/Cpp_Workspace/Mandelbrot/Mandelbrot_Console/out/build/x64-Debug (Standard)/CMakeFiles/rebuild_cache.dir
