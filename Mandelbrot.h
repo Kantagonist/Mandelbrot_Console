@@ -10,7 +10,7 @@ public:
 	std::vector <double> points;
 	Mandelbrot(int, double);
 	~Mandelbrot();
-	void generateSet(int);
+	void generateSet();
 private:
 	int repetitionLimit;
 	double step;

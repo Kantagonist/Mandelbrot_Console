@@ -9,7 +9,7 @@ Mandelbrot::~Mandelbrot() {
 
 }
 
-void Mandelbrot::generateSet(int step) {
+void Mandelbrot::generateSet() {
 
 }
 
@@ -20,10 +20,9 @@ bool Mandelbrot::checkRepetition(double n) {
 	//init
 	bool result = false;
 	std::vector<double> z;
-	z.push_back(0 + n);
 
 	//algo
-	for (int i = 1; i < step; i++) {
+	for (int i = 0; i < step; i++) {
 		double f = pow(z.back(), 2) + n;
 		for (double &e : z) {
 			if (e == f) {
