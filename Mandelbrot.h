@@ -6,8 +6,12 @@
 class Mandelbrot {
 public:
 	int count = 0;
-	std::vector < std::vector<double>> points;
-	Mandelbrot();
+	std::vector <double> points;
+	Mandelbrot(int, double);
 	~Mandelbrot();
-	void generateSet(double step);
+	void generateSet(int);
+private:
+	int repetitionLimit;
+	double step;
+	bool checkRepetition(double);
 };

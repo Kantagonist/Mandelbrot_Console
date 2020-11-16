@@ -1,13 +1,19 @@
 #include "Mandelbrot.h"
 
-Mandelbrot::Mandelbrot() {
-
+Mandelbrot::Mandelbrot(int repetitionLimit, double step) {
+	this->repetitionLimit = repetitionLimit;
+	this->step = step;
 }
 
 Mandelbrot::~Mandelbrot() {
 
 }
 
-void Mandelbrot::generateSet(double step) {
+void Mandelbrot::generateSet(int step) {
 
+}
+
+bool Mandelbrot::checkRepetition(double n) {
+	bool result = false;
+	return result;
 }
